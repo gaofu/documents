@@ -1,0 +1,18 @@
+### The basics of Model View Controller
+
+MVC is a UI architectural pattern that has been around for some time. It is
+based on the premise of separation of responsibility. In MVC, we have the
+following components:
+•	 Model: This stores business data
+•	 View: This represents the model in UI
+•	 Controller: This is responsible for coordinating between a model and view
+
+Any change in the model is reflected in the view and any change done by the user
+while interacting with the view is reflected back on the model. Here, the controller
+acts as a coordinator and is responsible for keeping the model and view in sync.
+
+This is an over-simplified definition of the MVC and if we search the Web, we will
+find numerous variations of this pattern such as MVP, Front Controller, MVVM,
+and maybe some others. The net effect of this separation is that the code becomes
+more organized, more understandable, and maintainable.
+For us, the best way to understand MVC is to see it in action.
